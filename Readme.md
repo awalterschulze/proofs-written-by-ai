@@ -11,6 +11,14 @@ Inside the Proofs folder each folder contains a theorem, while each file in that
 
 > There is a slight difference: when developing a program for a specification A, two programs t and t' may not be considered completely equivalent. If A is the specification for a sorting algorithm, if t implements bubblesort, and t' implements quicksort, efficiency considerations make them very different When considering proofs on the other hand, two proofs p and p' of a proposition P play exactly the same role: only their existence matters and is important to ensure the truth of P. This possibility to interchange proofs of a given proposition is called _proof irrelevance_. - Coq'Art
 
+## Proofs
+
+### Coq Art Book
+
+Exercises and Examples from the Coq Art book:
+
+ - Chapter 3: [Propositions and Proofs](./src/Proofs/Props)
+
 ## Setup
 
 - Install [Coq 8.16](https://github.com/coq/platform/releases/tag/2022.09.1)
@@ -38,6 +46,7 @@ If you want to add a new folder of proofs:
 2. Create a `Readme.md` inside that folder
 3. In `generate.go` add a line: `generate("<path to your folder>")`
 4. Add at least one theorem as specified above
+5. Add the folder to the list of proofs, above in this Readme.
 
 ### Clean
 
