@@ -1,4 +1,4 @@
-# # # # # CoqArt - Chapter 3 : Propositions and Proofs
+# CoqArt - Chapter 3 : Propositions and Proofs
 
 ## [Implies is transitive](./imp_trans)
 

@@ -147,7 +147,7 @@ func rewriteReadme(filename string, heading string, theorems []Theorem) {
 	p := func(s string) {
 		readmeStrings = append(readmeStrings, s)
 	}
-	p("# " + heading + "\n\n")
+	p(heading + "\n\n")
 	for _, theorem := range theorems {
 		if theorem.Link != nil {
 			p("## [" + theorem.Heading + "](" + *theorem.Link + ")\n\n")
