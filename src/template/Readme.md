@@ -1,12 +1,17 @@
-# **TODO**
+# TODO:TITLE
+
+## Status
+
+| human  | copilot | auto   | crush  | sauto  | hammer | gpt4   |
+| ---    | ---     | ---    | ---    | ---    | ---    | ---    |
+|        |         |        |        |        |        |        |
+
+## Script
 
 We want to prove the following statement:
 
 ```coq
-
+TODO:CODE
 ```
 
 
-## Reference
-
-This theorem was taken from the English version of the [Coq Art book](https://www.labri.fr/perso/casteran/CoqArt/) on page **TODO**.
