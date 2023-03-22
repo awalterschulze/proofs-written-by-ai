@@ -98,8 +98,8 @@ func writeCodeFile(code, src, dst string) {
 		panic(err)
 	}
 	s := string(data)
-	code += "\n(* TODO *)\nAdmitted.\n"
-	s = strings.Replace(s, "(*TODO:CODE*)", code, 1)
+	s = strings.Replace(s, "(*TODO:CODE*)", code, -1)
+	s = strings.Replace(s, "(*TODO:ADMITTED*)", "(* TODO *)\nAdmitted.\n", 1)
 	if err := os.WriteFile(dst, []byte(s), os.FileMode(int(0664))); err != nil {
 		panic(err)
 	}
