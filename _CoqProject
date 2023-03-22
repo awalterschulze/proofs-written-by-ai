@@ -1,0 +1,27 @@
+-R src Example
+
+src/Crush/Crush.v
+
+src/template/auto.v
+src/template/copilot.v
+src/template/crush.v
+src/template/gpt4.v
+src/template/hammer.v
+src/template/human.v
+src/template/sauto.v
+
+src/048_imp_trans/auto.v
+src/048_imp_trans/copilot.v
+src/048_imp_trans/crush.v
+src/048_imp_trans/gpt4.v
+src/048_imp_trans/hammer.v
+src/048_imp_trans/human.v
+src/048_imp_trans/sauto.v
+
+src/054_apply_example/auto.v
+src/054_apply_example/copilot.v
+src/054_apply_example/crush.v
+src/054_apply_example/gpt4.v
+src/054_apply_example/hammer.v
+src/054_apply_example/human.v
+src/054_apply_example/sauto.v
