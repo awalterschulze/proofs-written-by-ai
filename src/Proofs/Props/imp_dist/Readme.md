@@ -4,7 +4,7 @@
 
 | human  | copilot | auto   | crush  | sauto  | hammer | gpt4   |
 | ---    | ---     | ---    | ---    | ---    | ---    | ---    |
-| [🔄](./human.v) | [🔄](./auto.v) | [🔄](./copilot.v) | [🔄](./crush.v) | [🔄](./gpt4.v) | [🔄](./hammer.v) | [🔄](./sauto.v) |
+| [✅](./human.v) | [🔄](./auto.v) | [🔄](./copilot.v) | [🔄](./crush.v) | [🔄](./gpt4.v) | [🔄](./hammer.v) | [🔄](./sauto.v) |
 
 ## Script
 
@@ -15,4 +15,7 @@ Variables P Q R : Prop.
 Theorem imp_dist : (P -> Q -> R) -> (P -> Q) -> (P -> R).
 ```
 
-
+We want to prove that
+if P and Q implies R
+and P implies Q
+then P implies R.
