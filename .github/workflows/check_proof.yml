@@ -41,7 +41,7 @@ jobs:
       run: |
         eval $(opam env)
         opam repo add coq-released https://coq.inria.fr/opam/released
-        opam install coq-hammer
+        opam install coq-hammer -y
     - name: Check proofs with Coq
       run: |
         eval $(opam env)

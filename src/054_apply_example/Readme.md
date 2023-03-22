@@ -1,4 +1,4 @@
-# **TODO**
+# Apply Example
 
 We want to prove the following statement:
 
@@ -11,8 +11,6 @@ If Q and R implies T
 and P implies Q
 then given P and R
 we should be able to show T
-
-
 
 ## Reference
 
