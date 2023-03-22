@@ -3,7 +3,7 @@
 We want to prove the following statement:
 
 ```coq
-Variables P Q R T.
+Variables P Q R T: Prop.
 Theorem apply_example: (Q -> R -> T) -> (P -> Q) -> P -> R -> T.
 ```
 
