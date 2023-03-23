@@ -1,5 +1,9 @@
 # Implies is transitive
 
+<a href="https://www.youtube.com/watch?v=-U-qRcMJjx8&list=PLYwF9EIrl42TTu08EiK2hPYb2iXOR-OQt&index=1" target="_blank">
+ <img src="https://img.youtube.com/vi/-U-qRcMJjx8/maxres1.jpg" alt="Watch the video" width="480" border="10" />
+</a>
+
 ## Status
 
 | human  | copilot | auto   | crush  | sauto  | hammer | gpt4   |
