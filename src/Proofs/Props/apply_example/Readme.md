@@ -4,7 +4,7 @@
 
 | human  | copilot | auto   | crush  | sauto  | hammer | gpt4   |
 | ---    | ---     | ---    | ---    | ---    | ---    | ---    |
-| [✅](./human.v) | [🔄](./auto.v) | [🔄](./copilot.v) | [🔄](./crush.v) | [🔄](./gpt4.v) | [🔄](./hammer.v) | [🔄](./sauto.v) |
+| [✅](./human.v) | [✅](./auto.v) | [✅](./copilot.v) | [✅](./crush.v) | [✅](./gpt4.v) | [✅](./hammer.v) | [✅](./sauto.v) |
 
 ## Script
 
